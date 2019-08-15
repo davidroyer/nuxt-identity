@@ -3,7 +3,7 @@
     <app-notification :status="status" :type="type" :text="message"/>
     <header>
       <app-text tag-name="h1" class="medium">Administrator</app-text>
-	  <app-text tag-name="h2" class="medium">Test {{ user.email }}</app-text>
+	  <!-- <app-text tag-name="h2" class="medium">Test {{ user.email }}</app-text> -->
     </header>
     <section>
       <ul class="list-container">
