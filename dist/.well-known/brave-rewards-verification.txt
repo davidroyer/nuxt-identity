@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: nuxt-identity.netlify.com
+Token: 0f7988de99ffcad7a981beba35f9eab212897b63cc7a2a8dc9c9d89bc1616365

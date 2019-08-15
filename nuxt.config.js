@@ -4,6 +4,8 @@ if (process.env.NODE_ENV !== 'production') {
 	require('dotenv').config();
 }
 
+console.log('process.env.NETLIFY_IDENTITY_URL: ', process.env.NETLIFY_IDENTITY_URL);
+
 const config = {
 	env: {
 		NETLIFY_IDENTITY_URL: process.env.NETLIFY_IDENTITY_URL,
@@ -24,9 +26,11 @@ const config = {
 		],
 		link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
 	},
-	mode: 'spa',
+	// mode: 'spa',
 	plugins: ['~/plugins/identity.js'],
 	rootDir: './src',
+	css: ['~/assets/main.css']
+
 };
 
 module.exports = config;
