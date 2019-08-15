@@ -1,7 +1,6 @@
 <template>
   <section>
     <header>
-      <app-text tag-name="h2" class="medium">Hello {{ user.email }}</app-text>		
       <app-text tag-name="h2" class="medium">Change Your Password</app-text>
     </header>
     <section>
