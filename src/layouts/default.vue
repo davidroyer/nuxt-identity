@@ -3,6 +3,7 @@
     <app-notification :status="status" :type="type" :text="message"/>
     <header>
       <app-text tag-name="h1" class="medium">Public Page</app-text>
+	  <nuxt-link to="/admin/dashboard">Admin</nuxt-link>
     </header>
     <nav>
       <ul class="list-container">

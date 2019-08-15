@@ -1,11 +1,13 @@
 <template>
+	<div>
 	<app-sign-form
 		@submit="submit"
 		title="Sign Up"
 		button-text="Sign Up"
 		:button-status="disabledButton"
 		:message="message"
-	></app-sign-form>
+	/>
+	</div>
 </template>
 
 <script>
